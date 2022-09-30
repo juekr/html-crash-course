@@ -1,0 +1,42 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+div p {
+    padding: 0.4rem;
+    margin-bottom: 34px;
+}
+
+ul > li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div > div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rebeccapurple;
+    margin: 20px;
+    text-align: center;
+    line-height: 180px;
+}
+
+div > div:nth-child(1) {
+    background-color: rgba(122,255,122,.2);
+}
+div > div:nth-child(2) {
+    background-color: rgba(122,122,255,.2);
+}
+div > div:nth-child(3) {
+    background-color: rgba(255,122,122,.2);
+}
+
+img {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
